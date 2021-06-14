@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Nimesh Mohanakrishnan - Web Developer | UX designer</title>
+  </head>
+  <body data-barba="wrapper">
+    <div class="load-container">
+      <div class="loading-screen"></div>
+    </div>
+    <div class="navbar">
+      <nav class="nav-wrapper pushpin-demo-nav black">
+        <div class="container">
+          <a href="index.html" class="brand-logo" id="logo">NIMESH M</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="">Projects</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li>
+              <a
+                class="btn-floating btn-large red lighten-1"
+                id="my_tag"
+                onclick="new_func()"
+                ><i class="material-icons">dark_mode</i></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-links">
+      <li><a href="">Projects</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="">Contact</a></li>
+      <li>
+        <a class="btn-large red lighten-1" id="my_tag" onclick="new_func()"
+          ><i class="material-icons" style="align-items: center">dark_mode</i
+          >Dark | Light mode</a
+        >
+      </li>
+    </ul>
+    <!--Put barba main function-->
+    <main data-barba="container" data-barba-namespace="home-section">
+      <div class="container animate-this">
+        <h1 class="introText">Web developer and UX designer</h1>
+        <p class="description">
+          I love developing websites and designing better User Experience.
+          Design stands tall in the tales of Technology.
+        </p>
+
+        <div class="buttons">
+          <a class="btn-large red lighten-1" href="./about.html"
+            ><i class="material-icons right">chevron_right</i>Check my Work</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer black">
+      <div class="container">
+        <div class="row center">
+          <ul>
+            <li><a class="grey-text text-lighten-1" href="#!">LinkedIn</a></li>
+            <li><a class="grey-text text-lighten-1" href="#!">Github</a></li>
+            <li><a class="grey-text text-lighten-1" href="#!">Instagram</a></li>
+            <li><a class="grey-text text-lighten-1" href="#!">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container center">© 2021 Nimesh Mohanakrishnan</div>
+      </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+      });
+    </script>
+  </body>
+</html>

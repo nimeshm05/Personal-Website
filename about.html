@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Nimesh Mohanakrishnan - Web Developer | UX designer</title>
+  </head>
+
+  <body data-barba="wrapper">
+    <div class="load-container">
+      <div class="loading-screen"></div>
+    </div>
+    <div class="navbar">
+      <nav class="nav-wrapper pushpin-demo-nav black">
+        <div class="container">
+          <a href="index.html" class="brand-logo" id="logo">NIMESH M</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="">Projects</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li>
+              <a
+                class="btn-floating btn-large red lighten-1"
+                id="my_tag"
+                onclick="new_func()"
+                ><i class="material-icons">dark_mode</i></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <main data-barba="container" data-barba-namespace="about-section">
+      <!--STARTING POINT-->
+      <div class="header" id="content">
+        <img
+          src="images/nimesh.jpg"
+          alt="profile picture"
+          id="profilePic"
+          class="circle responsive-img"
+          width="400"
+          height="400"
+        />
+        <h2 class="title animate-this" id="introductiontitle">
+          Hi, I'm Nimesh
+        </h2>
+        <p class="profileDescription">
+          I am a junior year undergraduate student studying Computer Science and
+          Engineering in Mysore, India. I am working as a front-end engineer
+          intern with Brane Enterprises(Nslhub). Voluntarily, I work as a UX
+          design collaborator with few engineers from Nutanix. I am also the
+          Co-Director of a growth accelerator, Stepup Strategy Consulting
+          Services. I plan customer experience modules in the firm.
+        </p>
+
+        <!--EXPERIENCES-->
+        <h3 class="title animate-this">Experiences</h3>
+        <div class="row" style="margin-top: 2em">
+          <div class="col s12">
+            <div class="card dark-mode z-depth-3">
+              <div class="card-content">
+                <span
+                  class="card-title"
+                  style="font-weight: bold; color: rgb(255, 109, 109)"
+                  >Front-end Engineer Intern</span
+                >
+                <p style="font-size: 18px">
+                  I am working as an intern with Brane Enterprises. I am
+                  responsible to craft and code the UI using flutter framework.
+                  Over time, I have mastered Dart Programming for flutter
+                  framework. I work with a team of engineers and collaborate
+                  with UX designers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 2em">
+          <div class="col s12">
+            <div class="card dark-mode z-depth-3">
+              <div class="card-content">
+                <span
+                  class="card-title"
+                  style="font-weight: bold; color: rgb(255, 109, 109)"
+                  >Google UX Certified Designer</span
+                >
+                <p style="font-size: 18px">
+                  I am Google certified UX Designer. I worked on 3 months
+                  coursework framed and created by Google, hosted on Coursera.
+                  In this course, I educated myself with foundations UX design
+                  and created 2 projects. This certification course has helped
+                  me gain deeper insights to UX design.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 2em">
+          <div class="col s12">
+            <div class="card dark-mode z-depth-3">
+              <div class="card-content">
+                <span
+                  class="card-title"
+                  style="font-weight: bold; color: rgb(255, 109, 109)"
+                  >Univeristy Innovation - Fellow & Guide</span
+                >
+                <p style="font-size: 18px">
+                  I am working as an intern with Brane Enterprises. I am
+                  responsible to craft and code the UI using flutter framework.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 2em">
+          <div class="col s12">
+            <div class="card dark-mode z-depth-3">
+              <div class="card-content">
+                <span
+                  class="card-title"
+                  style="font-weight: bold; color: rgb(255, 109, 109)"
+                  >Toastmasters International - Club President</span
+                >
+                <p style="font-size: 18px">
+                  I am working as an intern with Brane Enterprises. I am
+                  responsible to craft and code the UI using flutter framework.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--NAVIGATING BUTTON-->
+        <div class="animate-this button">
+          <a href="index.html">go back to home</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer black">
+      <div class="container">
+        <div class="row center">
+          <ul>
+            <li><a class="grey-text text-lighten-1" href="#!">LinkedIn</a></li>
+            <li><a class="grey-text text-lighten-1" href="#!">Github</a></li>
+            <li><a class="grey-text text-lighten-1" href="#!">Instagram</a></li>
+            <li><a class="grey-text text-lighten-1" href="#!">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container center">© 2021 Nimesh Mohanakrishnan</div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"
+  ></script>
+  <script src="main.js"></script>
+</html>
