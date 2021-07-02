@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Nimesh Mohanakrishnan - Web Developer | UX designer</title>
+  </head>
+  <body data-barba="wrapper">
+    <div class="load-container">
+      <div class="loading-screen"></div>
+    </div>
+    <div class="navbar">
+      <nav class="nav-wrapper pushpin-demo-nav black">
+        <div class="container">
+          <a href="index.html" class="brand-logo" id="logo">NIMESH M</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="">Projects</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li>
+              <a
+                class="btn-floating btn-large red lighten-1"
+                id="my_tag"
+                onclick="new_func()"
+                ><i class="material-icons">dark_mode</i></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-links">
+      <li><a href="">Projects</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      <li>
+        <a class="btn-large red lighten-1" id="my_tag" onclick="new_func()"
+          ><i class="material-icons" style="align-items: center">dark_mode</i
+          >Dark | Light mode</a
+        >
+      </li>
+    </ul>
+    <!--Put barba main function-->
+    <main data-barba="container" data-barba-namespace="projects-section">
+      <div class="container animate-this">
+        <h1 class="introText">Projects</h1>
+        <p class="description">
+          I work on design and technical projects. Most of them involve class
+          work and few are completed with my interest. <br />
+          Have fun reading!
+          <span>&#128512;</span>
+        </p>
+      </div>
+
+      <div
+        class="caption"
+        id="content"
+        style="margin-top: 6em; margin-bottom: 6em"
+      >
+        <h2>Design Projects</h2>
+      </div>
+
+      <div class="projects" id="content">
+        <div class="row">
+          <div class="col s12 m6" style="padding: 10px !important">
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/ClubApp.png" />
+                <span class="card-title">Club App</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#">Check the project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6" style="padding: 10px !important">
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/ClubApp.png" />
+                <span class="card-title">Club App</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#">Check the project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--TECHNICAL PROJECTS-->
+      <div
+        class="caption"
+        id="content"
+        style="margin-top: 6em; margin-bottom: 6em"
+      >
+        <h2>Technical Projects</h2>
+      </div>
+      <div class="projects" id="content">
+        <div class="row">
+          <div class="col s12 m6" style="padding: 10px !important">
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/Blog app.png" />
+                <span class="card-title">Blog Application</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  <b>Concepts covered:</b> CRUD operations, User registration,
+                  Sign In.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="./blogapp.html">Check the project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6" style="padding: 10px !important">
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/Corona app.png" />
+                <span class="card-title">Corona Virus Tracker</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  <b>Concepts covered:</b> Display live API response, analyze
+                  data using a pie chart
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="./coronaapp.html">Check the project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6" style="padding: 10px !important">
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/Dictionary app.png" />
+                <span class="card-title">Dictionary Application</span>
+              </div>
+              <div class="card-content">
+                <p><b>Concepts covered:</b> Web scraping, search feature</p>
+              </div>
+              <div class="card-action">
+                <a href="./dictionaryapp.html">Check the project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer black">
+      <div class="container">
+        <div class="row center">
+          <ul>
+            <li><a class="grey-text text-lighten-1" href="#!">LinkedIn</a></li>
+            <li><a class="grey-text text-lighten-1" href="#!">Github</a></li>
+            <li><a class="grey-text text-lighten-1" href="#!">Instagram</a></li>
+            <li><a class="grey-text text-lighten-1" href="#!">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container center">© 2021 Nimesh Mohanakrishnan</div>
+      </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+      });
+    </script>
+  </body>
+</html>
