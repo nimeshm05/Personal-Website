@@ -101,6 +101,30 @@ nav ul a {
   font-family: SansLight;
 }
 
+.description1 {
+  text-align: left;
+  font-size: 1.8em;
+  font-family: SansLight;
+}
+
+.headings {
+  margin: 0.8em auto;
+  font-family: Regular;
+  font-size: 3.6em;
+  text-align: center;
+  color: rgb(37, 37, 37);
+  letter-spacing: 1px;
+}
+
+.italics {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: SansLight;
+  margin: 10px 40px;
+  font-style: italic;
+  color: #888;
+}
+
 footer {
   top: 100%;
   position: sticky;
@@ -168,8 +192,8 @@ footer .row ul li {
 
 .profileDescription {
   font-family: SansLight;
-  text-align: justify;
-  font-size: 22px;
+  text-align: center;
+  font-size: 1.8em;
   margin-top: 2em;
 }
 
@@ -218,6 +242,10 @@ footer .row ul li {
   font-family: SansBold;
 }
 
+#introductiontitle {
+  text-align: center;
+}
+
 @media screen and (max-width: 700px) {
   .buttons {
     margin: 1em 0em !important;
@@ -247,7 +275,6 @@ footer .row ul li {
     display: block;
   }
   .btn-large {
-    display: block;
     margin-top: 6px;
   }
 }

@@ -30,8 +30,8 @@
           </a>
           <ul class="right hide-on-med-and-down">
             <li><a href="./projects.html">Projects</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./about.html">Biography</a></li>
+            <li><a href="./contact.html">Connect</a></li>
             <li>
               <a
                 class="btn-floating btn-large red lighten-1"
@@ -46,15 +46,17 @@
     </div>
 
     <ul class="sidenav" id="mobile-links">
+      <li><a href="./index.html">Nimesh M</a></li>
       <li><a href="./projects.html">Projects</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./contact.html">Contact</a></li>
+      <li><a href="./about.html">Biography</a></li>
+      <li><a href="./contact.html">Connect</a></li>
       <li>
         <a class="btn-large red lighten-1" id="my_tag" onclick="new_func()"
           ><i class="material-icons" style="align-items: center">dark_mode</i
           >Dark | Light mode</a
         >
       </li>
+      <li class="center">© 2021 Nimesh Mohanakrishnan</li>
     </ul>
     <!--Put barba main function-->
     <main data-barba="container" data-barba-namespace="home-section">
@@ -71,24 +73,20 @@
           >
         </div>
         <div class="process">
-          <h2 class="processHeading">My UX Design Process</h2>
+          <h2 class="processHeading">My Process</h2>
           <p class="profileDescription">
             I use design thinking to leverage ideas and opportunities to solve
-            problems. Since it is an iterative process, it enables us to
+            problems. Since it is an iterative process, it enables me to
             traverse the design flow and ensure that we take a calculated
             measurement to deliver the best possible solutions to the
             problems.<br /><br />
-            In the process, as a designer, I need to sketch wireframes, build
-            prototypes and mock-ups. I categorize all of these in certain
-            sections of the design thinking process. Everything is listed in
-            detail below.
           </p>
           <img
             src="./images/Group 7.png"
             alt="Design thinking image"
             id="designThinkingImage"
           />
-          <h3 class="empathize">Empathize</h3>
+          <!-- <h3 class="empathize">Empathize</h3>
           <p class="designThinkingDescription">
             Empathy is the ability to observe and understand another person’s
             needs, motivations, fears, abilities, limitations, and goals. We can
@@ -128,7 +126,7 @@
             enables us to understand the product design to a deeper extent after
             receiving user feedback. I generally test the prototypes with the
             target users.
-          </p>
+          </p> -->
         </div>
       </div>
     </main>
@@ -160,6 +158,7 @@
     <script>
       $(document).ready(function () {
         $(".sidenav").sidenav();
+        $(".collapsible").collapsible();
       });
     </script>
   </body>
