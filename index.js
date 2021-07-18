@@ -3,6 +3,10 @@ function new_func() {
   element.classList.toggle("dark-mode");
 }
 
+$(document).ready(function () {
+  $(".fixed-action-btn").floatingActionButton();
+});
+
 function delay(n) {
   n = n || 2000;
   return new Promise((done) => {

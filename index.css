@@ -32,6 +32,10 @@
   color: white;
 }
 
+.dark-mode #projectcard {
+  background-color: black;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -97,6 +101,12 @@ nav ul a {
 
 .description {
   text-align: center;
+  font-size: 2em;
+  font-family: SansLight;
+}
+
+.blockquotes {
+  margin-top: 4em;
   font-size: 2em;
   font-family: SansLight;
 }
@@ -192,7 +202,7 @@ footer .row ul li {
 
 .profileDescription {
   font-family: SansLight;
-  text-align: center;
+  text-align: left;
   font-size: 1.8em;
   margin-top: 2em;
 }
@@ -215,11 +225,12 @@ footer .row ul li {
 }
 
 .process {
-  margin-top: 8em;
+  margin-top: 6em;
   width: 100%;
 }
+
 .processHeading {
-  text-align: center;
+  text-align: left;
 }
 
 #designThinkingImage {
@@ -276,5 +287,8 @@ footer .row ul li {
   }
   .btn-large {
     margin-top: 6px;
+  }
+  .card {
+    text-align: left;
   }
 }
