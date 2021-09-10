@@ -1,0 +1,132 @@
+<INDEX.HTML>
+        <div class="process">
+          <h2 class="processHeading">A Little About Me &#128578;</h2>
+          <p class="profileDescription">
+            My name is Nimesh Mohanakrishnan. I love creating things that live
+            on the Internet. My interest in web development grew when I took a
+            class on HTML and CSS during my 12th grade. I decided to pursue this
+            interest and, eventually, I found that designing and developing
+            usable and intuitive interfaces is my arena. <br />
+            My focus these days is building usable, accessible, inclusive
+            digital experiences and products.<br /><br />
+          </p>
+          <div class="row">
+            <div class="col s6">
+              <ul class="collection with-header">
+                <li class="collection-header"><h4>Technical Skills</h4></li>
+                <li class="collection-item">HTML, CSS and Javascript</li>
+                <li class="collection-item">Python</li>
+                <li class="collection-item">Django</li>
+                <li class="collection-item">Flutter</li>
+              </ul>
+            </div>
+            <div class="col s6">
+              <ul class="collection with-header">
+                <li class="collection-header"><h4>Design Skills</h4></li>
+                <li class="collection-item">Wireframes</li>
+                <li class="collection-item">UX Research</li>
+                <li class="collection-item">Ideation</li>
+                <li class="collection-item">High-Fidelity Mock-ups</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="process">
+          <h2 class="processHeading">My Process &#11088;</h2>
+          <p class="profileDescription">
+            I use design thinking to leverage ideas and opportunities to solve
+            problems. Since it is an iterative process, it enables me to
+            traverse the design flow and ensure that I take a calculated
+            measurement to deliver the best possible solutions to the
+            problems.<br /><br />
+          </p>
+          <div class="buttons">
+            <a class="btn-large red lighten-1" href="./about.html"
+              ><i class="material-icons right">chevron_right</i>More about me</a
+            >
+          </div>
+          <img
+            src="./images/Group 7.png"
+            alt="Design thinking image"
+            id="designThinkingImage"
+          />
+        </div>
+<INDEX HTML>
+
+
+<PROJECTS HTML>
+      <div
+        class="caption"
+        id="content"
+        style="margin-top: 6em; margin-bottom: 6em"
+      >
+        <h2>Design Projects</h2>
+      </div>
+
+      <div class="projects" id="content">
+        <div class="row">
+          <div class="col s12 m6" style="padding: 10px !important">
+            <div class="card" id="projectcard">
+              <div class="card-image">
+                <img src="./images/blogApp.png" />
+                <span class="card-title">Blog App</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  In two week design sprint, I designed and conceptualized a
+                  blog application for students to share their experiences on
+                  campus.
+                </p>
+              </div>
+              <div class="card-action">
+                <a
+                  href="https://www.behance.net/gallery/123901913/Blog-App-Design?tracking_source=for_you_feed_user_published"
+                  target="_blank"
+                  >Visuals</a
+                >
+                <a href="#">Case Study</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6" style="padding: 10px !important">
+            <div class="card" id="projectcard">
+              <div class="card-image">
+                <img src="./images/WhatsApp_Logo_2.png" />
+                <span class="card-title">WhatsApp</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  Reimaging the WhatsApp group chat features. In the process of
+                  eliminating the pain points and redesigning the application to
+                  enhance the group chat.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#">Coming soon...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6" style="padding: 10px !important">
+            <div class="card" id="projectcard">
+              <div class="card-image">
+                <img src="./images/ClubApp.png" />
+                <span class="card-title">Club App</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  Conceptualized and designed an app to leverage better
+                  experience for students on campus to help them find clubs of
+                  their interest.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#">Coming soon...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<PROJECTS HTML>
